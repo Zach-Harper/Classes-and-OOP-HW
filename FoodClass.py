@@ -16,5 +16,4 @@ class Transaction:
         self.customerid = customerid
 
     def calc_total(self):
-        print(self.cost)
         return self.cost

@@ -10,12 +10,12 @@ dict = {'trans1':['2/15/2023','The Lone Patty',17,569],
 }
 order_total = 0
 
-customerid = 569    
+customerid = 570    
 name = 'Dannie Sellyar'
 address = '97 Mitchell Way HewittTexas 76712'
 email = 'dsellyarft@gmpg.org'
 phone = '254-555-9362'
-member_status = True
+member_status = False
 
 customer = fc.Customer(customerid,name,address,email,phone,member_status)
 
@@ -42,4 +42,3 @@ if member_status is True:
     print('Total Cost After Discount:',.8*total_cost)
 else:
     pass
-
